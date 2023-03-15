@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Profile</h2>
+    <form action="update_profile.php" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age">
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob">
+      <label for="contact">Contact:</label>
+      <input type="tel" id="contact" name="contact">
+      <button type="submit">Update Profile</button>
+    </form>
+    <p><a href="login.html">Log out</a></p>
+  </div>
+</body>
+</html>
